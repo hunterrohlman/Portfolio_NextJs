@@ -1,0 +1,71 @@
+#workHistory {
+  overflow: hidden;
+  width: 200vw;
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.workTitle {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.workHistDesc {
+  font-size: 1.25rem;
+  font-weight: 400;
+  max-width: 80rem;
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+.workBars {
+  margin-bottom: 2rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+
+.workBar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+  justify-content: space-between;
+}
+
+.workBarImg {
+  object-fit: cover;
+  height: 7rem;
+  width: 7rem;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+  align-self: center;
+}
+
+.workBarText > h2 {
+  font-size: 2rem;
+}
+
+.respList {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-content: left;
+    text-align: left;
+    margin: 0.5rem 2rem;
+}
+
+.respListItem {
+  font-size: 1.25rem;
+  font-weight: 300;
+}

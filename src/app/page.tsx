@@ -6,7 +6,7 @@ import Workhistory from '../components/WorkHistory/workhistory.js';
 import Education from '../components/Education/education.js';
 import Contact from '../components/Contact/contact.js';
 import Footer from '../components/Footer/footer.js';
-import styles from './page.module.css'
+import styles from './page.module.css';
 
 export default function Home() {
   return (

@@ -10,9 +10,10 @@ const Intro = () => {
     <section id="intro">
         <div className="introContent"> 
             <span className="hello">Hello,</span>
-            <span className="introText"> I'm 
-                <span className="introName"> Hunter</span> 
-                <br />Embedded Developer
+            <span className="introText"> I am 
+              <span className="introName"> Hunter</span> 
+              <br />
+              Embedded Developer
             </span>
         <p className="introPara">I am a skilled embedded developer with a background in 5G NR and space</p>
           <button className="btn" onClick={()=> window.location.href = "https://www.linkedin.com/in/hunter-rohlman-1611a5159/"}>

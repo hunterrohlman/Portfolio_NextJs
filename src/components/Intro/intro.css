@@ -10,7 +10,7 @@
 
 .bg {
     position: absolute;
-    margin: 4rem 5rem 0 0rem; /* top right bottom left */
+    margin: 8rem 5rem 0 0rem; /* top right bottom left */
     top: 0rem;
     right: -5vh;
     z-index: -1;

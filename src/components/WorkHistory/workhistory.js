@@ -93,4 +93,4 @@ export const Workhistory = () => {
   );
 };
 
-export default Workhistory
+export default Workhistory;

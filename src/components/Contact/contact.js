@@ -2,14 +2,9 @@
 import React, { useRef } from 'react';
 import './contact.css';
 import Image from 'next/image';
-import Walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
 import GithubBanner from '../../assets/githubbanner.png';
 import LinkedinBanner from '../../assets/linkedinbanner.png';
 import emailjs from '@emailjs/browser';
-import {Link} from 'react-scroll'
 
 export const Contact = () => {
   const form = useRef();
@@ -39,16 +34,12 @@ export const Contact = () => {
             </form>
 
             <div className="links">
-                <Link>
-                    <button className='linkBtn' onClick={()=> window.location.href = "https://www.github.com/hunterrohlman"}>
-                        <Image src={GithubBanner} alt="Github" className='link'/>
-                    </button>
-                </Link>
-                <Link>
-                    <button className='linkBtn' onClick={()=> window.location.href = "https://www.linkedin.com/in/hunter-rohlman-1611a5159/"}>
-                        <Image src={LinkedinBanner} alt="LinkedIn" className='link'/>
-                    </button>
-                </Link>
+                <button className='linkBtn' onClick={()=> window.location.href = "https://www.github.com/hunterrohlman"}>
+                    <Image src={GithubBanner} alt="Github" className='link'/>
+                </button>
+                <button className='linkBtn' onClick={()=> window.location.href = "https://www.linkedin.com/in/hunter-rohlman-1611a5159/"}>
+                    <Image src={LinkedinBanner} alt="LinkedIn" className='link'/>
+                </button>
             </div>
         </div>
     </section>

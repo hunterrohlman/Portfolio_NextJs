@@ -6,11 +6,11 @@ import Workhistory from '@/components/Workhistory/workhistory';
 import Education from '@/components/Education/education';
 import Contact from '@/components/Contact/contact';
 import Footer from '@/components/Footer/footer';
+import styles from './page.module.css'
 
 export default function Home() {
   return (
-    // <main className={styles.main}>
-    <div className="App">
+    <main className={styles.main}>
       <Navbar/>
       <Intro/>
       <Skills/>
@@ -18,7 +18,6 @@ export default function Home() {
       <Education/>
       <Contact/>
       <Footer/>
-    </div>
-    // </main>
+    </main>
   )
 }

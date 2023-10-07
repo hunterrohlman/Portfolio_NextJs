@@ -16,7 +16,7 @@ const Works = () => {
         <div className='worksImgs'>
             <Image src={Portfolio1} alt="" className='worksImg' />
             <Image src={Portfolio2} alt="" className='worksImg' />
-            <iImagemg src={Portfolio3} alt="" className='worksImg' />
+            <Image src={Portfolio3} alt="" className='worksImg' />
             <Image src={Portfolio4} alt="" className='worksImg' />
             <Image src={Portfolio5} alt="" className='worksImg' />
             <Image src={Portfolio6} alt="" className='worksImg' />

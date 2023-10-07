@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link activeClass="active" to="education" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Education</Link>
         </div>
         <button className="desktopMenuBtn" onClick={()=> {
-            document.getElementById("contact").scrollIntoView({behavior: "smooth"});
+            document.getElementById("contact")!.scrollIntoView({behavior: "smooth"});
         }}>
             <Image src={contactImg} alt="" className="desktopMenuImg"/>
             Contact Me

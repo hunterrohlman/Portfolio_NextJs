@@ -1,11 +1,11 @@
 import React from 'react';
-import Intro from '../components/Intro/intro.js';
-import Navbar from '../components/NavBar/navbar.js';
-import Skills from '../components/Skills/skills.js';
-import Workhistory from '../components/WorkHistory/workhistory.js';
-import Education from '../components/Education/education.js';
-import Contact from '../components/Contact/contact.js';
-import Footer from '../components/Footer/footer.js';
+import Intro from '../components/Intro/intro';
+import Navbar from '../components/NavBar/navbar';
+import Skills from '../components/Skills/skills';
+import Workhistory from '../components/WorkHistory/workhistory';
+import Education from '../components/Education/education';
+import Contact from '../components/Contact/contact';
+import Footer from '../components/Footer/footer';
 import styles from './page.module.css';
 
 export default function Home() {

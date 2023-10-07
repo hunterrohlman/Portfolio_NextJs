@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo_zoomout.png'
 import contactImg from '../../assets/contact.png'
 import {Link} from 'react-scroll'
 import menu from '../../assets/menu.png'
@@ -19,11 +19,12 @@ const Navbar = () => {
             <Link activeClass="active" to="workHistory" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Experience</Link>
             <Link activeClass="active" to="education" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Education</Link>
         </div>
-        <button className="desktopMenuBtm" onClick={()=> {
+        <button className="desktopMenuBtn" onClick={()=> {
             document.getElementById("contact").scrollIntoView({behavior: "smooth"});
         }}>
-
-        <Image src={contactImg} alt="" className="desktopMenuImg"/>Contact Me</button>
+            <Image src={contactImg} alt="" className="desktopMenuImg"/>
+            Contact Me
+        </button>
 
         <Image src={menu} alt="Menu" className="mobMenu" onClick={()=>setShowMenu(!showMenu)}/>
         <div className="navMenu" style={{display: showMenu ? 'flex' : 'none'}}>

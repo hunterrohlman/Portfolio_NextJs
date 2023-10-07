@@ -11,7 +11,7 @@ const Skills = () => {
         <span className="skillTitle">What I do</span> <br/>
         <span className='skillDesc'>
             I am a skilled and passionate embedded devloper with a focus in 5G NR and space. I specialize in C++ 
-            and Python development, while I utilize JavaScript/TypeScript and React for personal development projects.
+            and Python development, while I utilize JavaScript/TypeScript and React/Next.Js for personal development projects.
         </span>
         <div className="skillBars">
             <div className="skillBar">
@@ -21,7 +21,7 @@ const Skills = () => {
                     5G New Radio
                     </h2>
                     <p className="skillBarText">
-                    3GPP 5G featues in C++/Python/TSN.1
+                    3GPP 5G features in C++/Python/TSN.1
                     </p>
                 </div>
             </div>
@@ -43,7 +43,7 @@ const Skills = () => {
                     Web Design
                     </h2>
                     <p className="skillBarText">
-                    Smooth and reactive software in JavaScript/TypeScript/React
+                    Smooth and reactive software in JavaScript/TypeScript/React/Next.Js
                     </p>
                 </div>
             </div>
